@@ -4,33 +4,60 @@ nav{
     margin: 20px;
 }
 
+.FactMainDiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+
+   
+}
 
 .FactDiv{
+    /* Center this div with flexible width and contents inside it aligned vertically */
     
-    display: grid;
-    place-items: center ;
-    max-width: 800px;
+    width: 75%;
+    padding: 20px;
     background-color: #ECF0F1;
     border-color: #FF5364;
-    border-width: 1px;
-    border-style: solid;
+    border-width: 100px;
     border-radius: 20px;
-    padding-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    
 }
+
+
 h1{
     text-align: center;
+    color: #35495E;
+    font-weight: bold;
+    font-family: 'Lucida Grande';
 }
 p{
     text-align: center;
+    font-family: 'Lucida Grande';
 }
 
 .getBtn{
-    width: auto;
-    height: 61px;
+    width: 30%;
+    height: 60px;
+    font-size: large;
+    
     background-color: #FF5364;
     border-radius: 5px;
     color: #ECF0F1;
-    size: 36px;
-    border-color: #979797;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    size: 50px;
+    border: none;
 
 }
+
+
+/* Increase text size inside button css*/
+

@@ -6,30 +6,30 @@ nav{
 
 
 .FactDiv{
-    /* Center this div with flexible width and contents inside it aligned vertically */
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: auto;
-
+    
+    display: grid;
+    place-items: center ;
+    max-width: 800px;
     background-color: #ECF0F1;
     border-color: #FF5364;
-    border-width: 100px;
+    border-width: 1px;
+    border-style: solid;
     border-radius: 20px;
+    padding-bottom: 20px;
+}
+h1{
+    text-align: center;
+}
+p{
+    text-align: center;
 }
 
-
 .getBtn{
-    width: 400px;
+    width: auto;
     height: 61px;
     background-color: #FF5364;
     border-radius: 5px;
     color: #ECF0F1;
-    padding-right: 10px;
-    padding-left: 10px;
-    padding-top: 10px;
-    padding-bottom: 10px;
     size: 36px;
     border-color: #979797;
 

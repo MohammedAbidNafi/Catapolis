@@ -34,11 +34,11 @@ h1{
     text-align: center;
     color: #35495E;
     font-weight: bold;
-    font-family: 'Lucida Grande';
+    font-family: Lucida Grande,Lucida Sans Unicode,Lucida Sans,Geneva,Verdana,sans-serif;
 }
 p{
     text-align: center;
-    font-family: 'Lucida Grande';
+    font-family: Lucida Grande,Lucida Sans Unicode,Lucida Sans,Geneva,Verdana,sans-serif;
 }
 
 .getBtn{

@@ -1,0 +1,11 @@
+{
+  "name": "catapolis",
+  "version": "1.0.0",
+  "description": "A web app for cats",
+  "main": "backend.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "MargsWeb",
+  "license": "ISC"
+}

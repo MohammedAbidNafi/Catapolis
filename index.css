@@ -1,0 +1,36 @@
+nav{
+    background-color: black;
+    border-radius: 20px;
+    margin: 20px;
+}
+
+
+.FactDiv{
+    /* Center this div with flexible width and contents inside it aligned vertically */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+
+    background-color: #ECF0F1;
+    border-color: #FF5364;
+    border-width: 100px;
+    border-radius: 20px;
+}
+
+
+.getBtn{
+    width: 400px;
+    height: 61px;
+    background-color: #FF5364;
+    border-radius: 5px;
+    color: #ECF0F1;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    size: 36px;
+    border-color: #979797;
+
+}

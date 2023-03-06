@@ -106,8 +106,7 @@ a:hover{
     width: 75%;
     padding: 20px;
     background-color: #ECF0F1;
-    border-color: #FF5364;
-    border-width: 100px;
+    
     border-radius: 20px;
     margin-left: auto;
     margin-right: auto;
@@ -140,7 +139,7 @@ h1{
     height: 60px;
     font-size: large;
     margin-top: 20px;
-    background-color: #FF5364;
+    background-color: #ee4355;
     border-radius: 5px;
     color: #ECF0F1;
     padding-right: 10px;
@@ -156,7 +155,7 @@ h1{
 
 .getBtn:hover{
     width: 40%;
-    background-color: #e43e4f;
+    background-color: #bc2e3c;
 }
 
 lds-dual-ring {
@@ -329,7 +328,7 @@ lds-dual-ring {
     background-color: #ECF0F1;
   }
 
-  h3 { text-align: center; }
+  h2 { text-align: center; }
 
   .post {
     width: 95%;

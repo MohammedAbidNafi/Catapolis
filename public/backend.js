@@ -43,7 +43,7 @@ function getPosts(){
           const postsArr = res.data.children;
           
           // Add a header based on post type
-          markup = `<h3>Trending cats</h3>`;
+          markup = `<h2>Trending cats</h2>`;
           
           // Iterate through our posts array and chain
           // the markup based on our HTML structure

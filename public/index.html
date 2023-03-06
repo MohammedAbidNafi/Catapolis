@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Catapolis</title>
+    
+    <link rel="stylesheet" href="index.css">
+
+   
+  </head>
+  <body onload="getFact(), getPosts()">
+   
+    <section class="top-nav">
+           
+      <a href="index.html">
+          <img height="70"  src="CatapolisLogo.png" alt="Logo" class="navbar__logo">
+          
+      </a>
+
+      
+    
+      <input id="menu-toggle" type="checkbox" />
+      <label class='menu-button-container' for="menu-toggle">
+          <div class='menu-button'></div>
+      </label>
+    <ul class="menu">
+     
+      <li><a href="index.html" class="links">Home</a></li>
+      <li><a href="topcats.html" class="links">TopCats</a></li>
+      <li><a href="#" class="links">CatPics</a></li>
+      <li><a href="#" class="links">AboutMe</a></li>
+      <li><a href="https://github.com/MohammedAbidNafi/Catapolis" target="_blank" class="links">Github</a></li>
+     
+      
+    </ul>  
+  </section>
+  <!--Add classes to below links as navlinks-->
+ 
+
+
+<!--Add a div inside it add a heading then a paragraph then a button with text get more facts-->
+
+
+<div class="FactMainDiv">
+  <div class="FactDiv">
+      <h1>Here is a cat fact just for you!</h1>
+      <div id="LoaderDiv" class="Loader">
+        <div class="lds-dual-ring"></div>
+      </div>
+      
+      <p id="factTxt">Fact Loading....</p>
+      <button id="getFact" type="submit" class="getBtn">Get More Facts</button>
+  </div>
+</div>
+
+
+<div class="post-container">
+       
+       
+</div>
+
+
+
+
+<script src="backend.js"></script>
+
+
+    
+</body>
+</html>

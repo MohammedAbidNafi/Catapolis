@@ -7,5 +7,16 @@
     "test": "test"
   },
   "author": "MargsWeb",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MohammedAbidNafi/Catapolis.git"
+  },
+  "bugs": {
+    "url": "https://github.com/MohammedAbidNafi/Catapolis/issues"
+  },
+  "homepage": "https://github.com/MohammedAbidNafi/Catapolis#readme",
+  "dependencies": {
+    "reddit-image-fetcher": "^2.0.11"
+  }
 }

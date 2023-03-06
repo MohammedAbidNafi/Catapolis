@@ -192,7 +192,7 @@ lds-dual-ring {
     box-sizing: border-box;
     text-decoration: none;
     font-family: Lucida Grande,Lucida Sans Unicode,Lucida Sans,Geneva,Verdana,sans-serif;
-    word-break: break-all;
+    word-break: normal;
     outline: none;
   }
 
@@ -227,6 +227,7 @@ lds-dual-ring {
     background-color: #fff;
     color: #000;
     margin: 10px auto;
+    overflow: hidden;
     border-radius: 10px;
     box-shadow: 3px 3px 5px #ddd;
   }

@@ -120,6 +120,7 @@ a:hover{
 h1{
     text-align: center;
     color: #35495E;
+    word-break: normal;
     font-weight: bold;
     font-family: Lucida Grande,Lucida Sans Unicode,Lucida Sans,Geneva,Verdana,sans-serif;
 }
@@ -129,6 +130,7 @@ h1{
     padding-right: 10%;
     padding-left: 10%;
     text-align: center;
+    word-break: normal;
     font-family: Lucida Grande,Lucida Sans Unicode,Lucida Sans,Geneva,Verdana,sans-serif;
     font-size: larger;
 }
@@ -142,6 +144,7 @@ h1{
     border-radius: 5px;
     color: #ECF0F1;
     padding-right: 10px;
+    word-break: normal;
     padding-left: 10px;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -241,11 +244,12 @@ lds-dual-ring {
     }
 
     h1{
-        font-size: x-large;
+        font-size: 5vw;
     }
 
     #factTxt{
-        font-size: medium;
+        font-size: 4vw;
+        word-break: normal;
     }
 
 
@@ -266,9 +270,27 @@ lds-dual-ring {
     
     }
 
+
+    .FactDiv{
+      /* Center a block inside a div */
+      
+      width: 90%;
+      padding: 10px;
+      background-color: #ECF0F1;
+      border-color: #FF5364;
+      border-width: 100px;
+      border-radius: 20px;
+      margin-left: auto;
+      margin-right: auto;
+      text-align: center;
+      
+      
+  }
+
     .getBtn{
-        font-size: medium;
+        font-size: 4vw;
         width: 50%;
+        word-break: normal;
     }
     .getBtn:hover{
         width: 80%;
@@ -281,8 +303,9 @@ lds-dual-ring {
     box-sizing: border-box;
     text-decoration: none;
     font-family: Lucida Grande,Lucida Sans Unicode,Lucida Sans,Geneva,Verdana,sans-serif;
-    word-break: break-all;
+    word-break: normal;
     outline: none;
+   
   }
 
   .options {
@@ -316,6 +339,7 @@ lds-dual-ring {
     background-color: #fff;
     color: #000;
     margin: 10px auto;
+    overflow: hidden;
     border-radius: 10px;
     box-shadow: 3px 3px 5px #ddd;
   }

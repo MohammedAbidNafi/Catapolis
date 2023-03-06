@@ -28,7 +28,7 @@ function getPosts(){
 
     container.innerHTML  = ""
     
-    fetch(`https://www.reddit.com/r/cats/rising.json?limit=50`)
+    fetch(`https://www.reddit.com/r/catpics/rising.json?limit=50`)
     .then(function(res) {
       return res.json();
          // Convert the data into JSON
@@ -43,7 +43,7 @@ function getPosts(){
           const postsArr = res.data.children;
           
           // Add a header based on post type
-          markup = `<h3>Hot posts from r/cat</h3>`;
+          markup = `<h3>Trending cats</h3>`;
           
           // Iterate through our posts array and chain
           // the markup based on our HTML structure

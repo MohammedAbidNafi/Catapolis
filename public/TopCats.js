@@ -9,7 +9,7 @@ function getImage(){
 
     container.innerHTML  = ""
     
-    fetch(`https://www.reddit.com/r/cats/top.json?t=all`)
+    fetch(`https://www.reddit.com/r/catpics/top.json?t=all`)
     .then(function(res) {
       return res.json();
          // Convert the data into JSON
@@ -24,7 +24,7 @@ function getImage(){
           const postsArr = res.data.children;
           
           // Add a header based on post type
-          markup = `<h3>Top posts from r/cat</h3>`;
+          markup = `<h3>Top cats</h3>`;
           
           // Iterate through our posts array and chain
           // the markup based on our HTML structure

@@ -36,7 +36,7 @@ function getImage(){
                    <div class="content"> 
                        ${currPost.selftext}
                        </br>
-                       <img src="${currPost.thumbnail}"></img> 
+                       <img src="${currPost.thumbnail}" alt="A cat photo"></img> 
                        </br></br>
                        <span>${currPost.url}</span>
                    </div>

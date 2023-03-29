@@ -55,7 +55,7 @@ function getPosts(){
                    <div class="content"> 
                        ${currPost.selftext}
                        </br>
-                       <img src="${currPost.thumbnail}"></img> 
+                       <img src="${currPost.thumbnail}" alt="A Cat photo"></img> 
                        </br></br>
                        <span>${currPost.url}</span>
                    </div>

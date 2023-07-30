@@ -20,7 +20,7 @@ a{
 }
 
 a:hover{
-    background-color: #5b5b5b;
+    background-color: #b0b0b0;
     padding: 10px;
     border-radius: 10px;
 
@@ -344,7 +344,7 @@ lds-dual-ring {
   }
 
   .post:hover{
-    background-color: #ffd2d2;
+    background-color: #cacaca;
   }
 
   .post > * {

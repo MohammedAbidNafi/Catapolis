@@ -19,7 +19,7 @@ a{
 }
 
 a:hover{
-    background-color: #5b5b5b;
+    background-color: #4f4f4f;
     padding: 10px;
     border-radius: 10px;
 
@@ -30,6 +30,13 @@ a:hover{
     flex-direction: row;
     list-style-type: none;
     
+}
+h1{
+  text-align: center;
+  color: #35495E;
+  word-break: normal;
+  font-weight: bold;
+  font-family: Lucida Grande,Lucida Sans Unicode,Lucida Sans,Geneva,Verdana,sans-serif;
 }
 
 .menu > li {
@@ -146,7 +153,7 @@ a:hover{
     }
     
     a:hover{
-        background-color: #5b5b5b;
+        background-color: #4f4f4f;
         padding: 0px;
         border-radius: 10px;
     
@@ -212,6 +219,9 @@ lds-dual-ring {
     width: 95%;
     height: auto;
     padding: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     margin: 15px auto;
     border-radius: 10px;
     background-color: #ECF0F1;
@@ -220,13 +230,17 @@ lds-dual-ring {
   h2 { text-align: center; }
 
   .post {
-    width: 95%;
+    width: 400px;
     height: auto;
-    display: block;
-    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    
+    align-items: center;
+    justify-content: center;
     background-color: #fff;
     color: #000;
-    margin: 10px auto;
+    margin: 10px;
     overflow: hidden;
     border-radius: 10px;
     box-shadow: 3px 3px 5px #ddd;
@@ -247,7 +261,11 @@ lds-dual-ring {
     font-size: 12px;
   }
   
-  .title { font-weight: bold; }
+  .title { 
+    font-weight: bold; 
+    text-align: center;
+    font-family: Lucida Grande,Lucida Sans Unicode,Lucida Sans,Geneva,Verdana,sans-serif;
+  }
   
   .content span { color: blue; }
 

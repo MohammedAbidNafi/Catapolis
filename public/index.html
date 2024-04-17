@@ -1,72 +1,75 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Catapolis</title>
-    <meta name="description" content="This is a website for cat lovers. Even haters are welcome once they enter they will also become cat lovers. ❤️">
-    
-    <link rel="stylesheet" href="index.css">
+    <meta
+      name="description"
+      content="This is a website for cat lovers. Even haters are welcome once they enter they will also become cat lovers. ❤️"
+    />
 
-   
+    <link rel="stylesheet" href="index.css" />
+
+    <script
+      async
+      src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5615682506938042"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body onload="getFact(), getPosts()">
-   
     <section class="top-nav">
-           
       <a href="index.html">
-          <img height="70"  src="CatapolisLogo.png" alt="Logo" class="navbar__logo">
-          
+        <img
+          height="70"
+          src="CatapolisLogo.png"
+          alt="Logo"
+          class="navbar__logo"
+        />
       </a>
 
-      
-    
       <input id="menu-toggle" type="checkbox" />
-      <label class='menu-button-container' for="menu-toggle">
-          <div class='menu-button'></div>
+      <label class="menu-button-container" for="menu-toggle">
+        <div class="menu-button"></div>
       </label>
-    <ul class="menu">
-     
-      <li><a href="index.html" class="links">Home</a></li>
-      <li><a href="topcats.html" class="links">TopCats</a></li>
-      <li><a href="catpics.html" class="links">CatPics</a></li>
-      <li><a href="aboutme.html" class="links">AboutMe</a></li>
-      <li><a href="https://github.com/MohammedAbidNafi/Catapolis" target="_blank" class="links">Github</a></li>
-     
-      
-    </ul>  
-  </section>
-  <!--Add classes to below links as navlinks-->
- 
 
+      <ul class="menu">
+        <li><a href="index.html" class="links">Home</a></li>
+        <li><a href="topcats.html" class="links">TopCats</a></li>
+        <li><a href="catpics.html" class="links">CatPics</a></li>
+        <li><a href="https://abidnafi.in" class="links">AboutMe</a></li>
+        <li>
+          <a
+            href="https://github.com/MohammedAbidNafi/Catapolis"
+            target="_blank"
+            class="links"
+            >Github</a
+          >
+        </li>
+      </ul>
+    </section>
+    <!--Add classes to below links as navlinks-->
 
-<!--Add a div inside it add a heading then a paragraph then a button with text get more facts-->
+    <!--Add a div inside it add a heading then a paragraph then a button with text get more facts-->
 
+    <div class="FactMainDiv">
+      <div class="FactDiv">
+        <h1>Here is a cat fact just for you!</h1>
+        <div id="LoaderDiv" class="Loader">
+          <div class="lds-dual-ring"></div>
+        </div>
 
-<div class="FactMainDiv">
-  <div class="FactDiv">
-      <h1>Here is a cat fact just for you!</h1>
-      <div id="LoaderDiv" class="Loader">
-        <div class="lds-dual-ring"></div>
+        <p id="factTxt">Fact Loading....</p>
+        <button id="getFact" type="submit" class="getBtn">
+          Get More Facts
+        </button>
       </div>
-      
-      <p id="factTxt">Fact Loading....</p>
-      <button id="getFact" type="submit" class="getBtn">Get More Facts</button>
-  </div>
-</div>
+    </div>
 
+    <h1>Trending Cats</h1>
 
-<div class="post-container">
-       
-       
-</div>
+    <div class="post-container"></div>
 
-
-
-
-<script src="backend.js"></script>
-
-
-    
-</body>
+    <script src="backend.js"></script>
+  </body>
 </html>

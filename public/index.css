@@ -154,7 +154,7 @@ h1{
 }
 
 .getBtn:hover{
-    width: 40%;
+    
     background-color: #bc2e3c;
 }
 
@@ -291,9 +291,7 @@ lds-dual-ring {
         width: 50%;
         word-break: normal;
     }
-    .getBtn:hover{
-        width: 80%;
-    }
+   
   }
 
 
@@ -323,6 +321,9 @@ lds-dual-ring {
     width: 95%;
     height: auto;
     padding: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     margin: 15px auto;
     border-radius: 10px;
     background-color: #ECF0F1;
@@ -331,13 +332,17 @@ lds-dual-ring {
   h2 { text-align: center; }
 
   .post {
-    width: 95%;
+    width: 400px;
     height: auto;
-    display: block;
-    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    
+    align-items: center;
+    justify-content: center;
     background-color: #fff;
     color: #000;
-    margin: 10px auto;
+    margin: 10px;
     overflow: hidden;
     border-radius: 10px;
     box-shadow: 3px 3px 5px #ddd;
@@ -358,7 +363,11 @@ lds-dual-ring {
     font-size: 12px;
   }
   
-  .title { font-weight: bold; }
+  .title { 
+    font-weight: bold; 
+    text-align: center;
+    font-family: Lucida Grande,Lucida Sans Unicode,Lucida Sans,Geneva,Verdana,sans-serif;
+  }
   
   .content span { color: blue; }
 
